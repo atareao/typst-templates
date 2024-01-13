@@ -1,2 +1,2 @@
 compile:
-    typst compile main.typ
+    typst compile --root . ./example/main.typ
