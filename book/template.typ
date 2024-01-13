@@ -61,15 +61,12 @@ set page(
         right: 2cm,
     ),
     header: [
-        #box(
-            width: 50%,
+        #grid(
+            columns: (1fr, 1fr),
             [
                 #set text(size: header_font_size)
                 #title
-            ]
-        )
-        #box(
-            width: 50%,
+            ],
             [
                 #set align(right)
                 #set text(size: header_font_size)
@@ -80,15 +77,12 @@ set page(
     ],
     footer: [
         #line(length: 100%)
-        #box(
-            width: 50%,
+        #grid(
+            columns: (1fr, 1fr),
             [
                 #set text(size: header_font_size)
                 #author
-            ]
-        )
-        #box(
-            width: 50%,
+            ],
             [
                 #set align(right)
                 #set text(size: header_font_size)
